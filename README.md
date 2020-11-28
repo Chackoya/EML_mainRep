@@ -20,12 +20,14 @@ Here are some usage examples of commands:
 	----
 	
 	Example 3: it's also possible (but not required) to test an image directly after training (to avoid having to make another cmd right after...)
+	
 	$python mainBolsa.py train --model default --save Pretrained_models/default_model --inputIMG StockImg/img8.jpg
 
 
 >>>FOR LOADING&TESTING:
 	Example 1 (cmd to call the function in classify mode with the pretrained model default, also indicate the path of the img to classify
 	(NOTE: this time we put the .h5 ).
+	
 	$python mainBolsa.py classify --model Pretrained_models/default_model.h5 --inputIMG StockImg/img8.jpg
 	---
 	
@@ -40,8 +42,13 @@ Here are some usage examples of commands:
 	This will result with the loading of the default model and just a print of the accuracy on a test mniist dataset
 
 --------------------------------------
+
+
 TODO: 
+
 -add the pretrained model from google or something 
+
 -test on a folder
+
 -maybe add some extra features to the parser (like configurations / nb epochs for example etc)...
 
