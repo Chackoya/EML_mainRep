@@ -6,6 +6,7 @@ Check help with cmd: $python mainBolsa.py -h
 Here are some usage examples of commands:
 
 >>>FOR TRAINING & SAVING TRAINED MODEL
+
 	Example 1 (terminal cmd to call the function for training with default model and saved on the path chosen
 	(NOTE:DONT NEED TO ADD .h5! in the end):
 
@@ -25,6 +26,7 @@ Here are some usage examples of commands:
 
 
 >>>FOR LOADING&TESTING:
+
 	Example 1 (cmd to call the function in classify mode with the pretrained model default, also indicate the path of the img to classify
 	(NOTE: this time we put the .h5 ).
 	
